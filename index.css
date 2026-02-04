@@ -156,8 +156,8 @@ main {
 }
 
 p {
-    line-height: 0.1cm;
-    white-space: nowrap;
+    line-height: 1.5;
+    white-space: normal;
 }
 
 .profil-img {
@@ -347,7 +347,7 @@ h1 {
     display: flex;
     flex-direction: column;
     margin: 0 0 0 30px;
-    line-height: 0.6cm;
+    line-height: 1.8;
     flex: 1;
     list-style: none;
     padding: 0;
@@ -357,7 +357,7 @@ h1 {
     display: flex;
     flex-direction: column;
     margin: 0;
-    line-height: 0.8cm;
+    line-height: 2;
     flex: 1;
 }
 
@@ -365,21 +365,21 @@ h1 {
     font-weight: bold;
 }
 
+.abilities-1 li {
+    margin-bottom: 10px;
+}
+
 .abilities-1 p {
     display: block;
     word-break: break-all;
 }
 
-.abilities-2 {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    line-height: 0.8cm;
-    flex: 1;
-}
-
 div.abilities-2 {
     font-size: 15pt;
+}
+
+.abilities-2 p {
+    margin-bottom: 15px;
 }
 
 .abilities-2 span {
